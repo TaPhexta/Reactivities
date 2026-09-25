@@ -23,7 +23,7 @@ export default function ActivityDashboard({
     openForm,
     closeForm,
     editMode,
-  submitForm,
+    submitForm,
     deleteActivity
   }: Props) {
   return (
