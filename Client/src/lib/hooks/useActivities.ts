@@ -38,5 +38,6 @@ export const useActivities = () => {
     isPending,
     updateActivity,
     createActivity,
+    
   };
 };
