@@ -14,4 +14,3 @@ namespace API.Controllers
             ?? throw new InvalidOperationException("Mediator service not found");
     }
 }
- 
