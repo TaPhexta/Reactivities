@@ -3,25 +3,8 @@ import ActivityDetails from "../Details/ActivityDetails";
 import ActivityForm from "../form/ActivityForm";
 import ActivityList from "./ActivityList";
 
-type Props = {
-  activities: Activity[];
-  selectActivity: (id: string) => void;
-  cancelSelectActivity: () => void;
-  selectedActivity?: Activity;
-  openForm: (id: string) => void;
-  closeForm: () => void;
-  editMode: boolean;
-};
-
-export default function ActivityDashboard({
-  activities,
-  selectActivity,
-  cancelSelectActivity,
-  selectedActivity,
-  openForm,
-  closeForm,
-  editMode
-}: Props) {
+export default function ActivityDashboard() {
+  
   return (
     <>
       <Grid container spacing={3}>
